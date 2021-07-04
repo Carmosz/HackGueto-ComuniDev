@@ -11,23 +11,27 @@
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Roboto+Mono:wght@400;700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <!-- Header -->
-    <header>
-        <div>
-            <div>
-                <a href="index.html">
-                    <img src="" alt="Logo da DevGueto" />
-                </a>
-                <nav>
+    <header class="header">
+        <div class="conteudo conteudo-do-header">
+            <div class="informacoes-do-header">
+                
+                <nav class="acessos">
+
+                    <a href="index.html">
+                        ComuniDev
+                    </a>
+
                     <a href="sobre.html">
                         Sobre Nós
                     </a>
 
-                    <a href="contato.html">
+                    <a href="#contato">
                         Contato
                     </a>
 
@@ -38,21 +42,21 @@
                     <a href="login.html">
                         <button>Login</button>
                     </a>
-
                 </nav>
+
+                
+                
             </div>
-
         </div>
-
     </header>
     <!-- Header -->
 
     <!-- Seção 1 -->
-    <section>
-        <div>
-            <div>
-                <div>
-                    <img class="imagem-responsiva" src="" alt="Uma Ilustração">
+    <section class="apresentacao">
+        <div class="conteudo">
+            <div class="informacoes-apresentacao">
+                <div class="coluna">
+                    <img class="imagem-responsiva" src="./Imagens/img-1.png" alt="Uma Ilustração">
                 </div>
                 <h1 class="titulo margin-top-20">Olá, </h1>
                 <h2>
@@ -61,9 +65,6 @@
 
                 <h3>Feito pela comunidade para a comunidade</h3>
 
-                <a href="login.html">
-                    Comece por aqui!
-                </a>
 
 
             </div>
@@ -72,12 +73,45 @@
     </section>
     <!-- Seção 1 -->
 
+    <!-- Seção 4 -->
+    <section>
+        <div>
+            <div>
+                <h1>/Trilhas</h1>
+            </div>
+            <div>
+                <img src="" alt="Trilha 1" />
+            </div>
+            <div>
+                <img src="" alt="Trilha 2" />
+            </div>
+            <div>
+                <img src="" alt="Trilha 3" />
+            </div>
+
+            <div>
+                <p>Lorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet
+                    Lorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet
+                </p>
+            </div>
+
+            <div>
+                <a href="login.html">
+                    Vamos lá!
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Seção 4 -->
+
     <!-- Seção 2 -->
     <section>
         <div>
             <div>
-                <h1>Sobre nós</h1>
-                <p>Somos uma rede que busca fomentar a alfabetização tecnológica e a transformação digital nas periferias
+                <h1>/Sobre a ComuniDev</h1>
+                <p>Somos uma rede que busca fomentar a alfabetização tecnológica e a transformação digital nas
+                    periferias
                     através da curadoria de conteúdos gratuitos sobre programação.
 
                     Nossa missão é facilitar o acesso a conteúdos já disponibilizados na internet e com eles criar uma
@@ -94,7 +128,7 @@
     <section>
         <div>
             <div>
-                <h1>Equipe</h1>
+                <h1>/Equipe</h1>
             </div>
             <div>
                 <div>
@@ -120,48 +154,27 @@
     </section>
     <!-- Seção 3 -->
 
-    <!-- Seção 4 -->
-    <section>
-        <div>
-            <div>
-                <h1>Trilhas</h1>
-            </div>
-            <div>
-                <img src="" alt="Trilha 1" />
-            </div>
-            <div>
-                <img src="" alt="Trilha 2" />
-            </div>
-            <div>
-                <img src="" alt="Trilha 3" />
-            </div>
 
-            <div>
-                <p>Lorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet Lorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet </p>
-            </div>
-        </div>
-    </section>
-    <!-- Seção 4 -->
 
     <!-- Seção 5 -->
-    <section>
+    <section id="contato">
         <div>
             <div>
-                <h1>Fale com a gente!</h1>
+                <h1>/Fale com a gente!</h1>
             </div>
 
             <form action="" class="form__exemplo">
-                <label for="nomeinput">Digite o seu nome</label>
+                <label for="nomeinput">Digite o seu nome:</label>
                 <input type="text" name="nome__input" id="nomeInput" placeholder="Digite seu nome">
-                <label for="emailInput">E-mail</label>
+                <label for="emailInput">E-mail:</label>
                 <input type="text" class="email__input" id="emailInput" placeholder="Digite seu email">
-                <label for="assuntoInput">Assunto</label>
+                <label for="assuntoInput">Assunto:</label>
                 <input type="text" class="assunto__input" id="assuntoInput" placeholder="Digite o assunto">
-                <label for="textoInput" class="texto__label">Mensagem</label>
+                <label for="textoInput" class="texto__label">Mensagem:</label>
                 <input type="text" class="text__input" id="textoInput" placeholder="Digite sua mensagem">
 
                 <div>
-                    <button class="texto__button">Postar</button>
+                    <button class="texto__button">Enviar Mensagem</button>
                 </div>
             </form>
 
@@ -170,11 +183,11 @@
     <!-- Seção 5 -->
 
     <!-- Footer -->
-    
+
     <footer>
         <div>
             <div>
-                <a href="index.html" >
+                <a href="index.html">
                     <h1>ComuniDev</h1>
                     <p>© 2021 Tecnogueto. Todos os direitos reservados.</p>
                 </a>
@@ -189,7 +202,7 @@
         </div>
     </footer>
 
-    
+
     <!-- Footer -->
 </body>
 
