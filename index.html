@@ -11,7 +11,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Roboto+Mono:wght@400;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="trilhas.html">
+    <link rel="stylesheet" href="contato.html">
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="sobre.html">
 </head>
 
 <body>
@@ -20,18 +24,13 @@
     <header class="header">
         <div class="conteudo conteudo-do-header">
             <div class="informacoes-do-header">
-                
-                <nav class="acessos">
 
-                    <a href="index.html">
-                        ComuniDev
-                    </a>
-
+                <nav>
                     <a href="sobre.html">
-                        Sobre Nós
+                        Sobre
                     </a>
 
-                    <a href="#contato">
+                    <a href="contato.html">
                         Contato
                     </a>
 
@@ -39,13 +38,11 @@
                         Trilhas
                     </a>
 
-                    <a href="login.html">
-                        <button>Login</button>
+                    <a class="botao-login" href="login.html">
+                        Login
                     </a>
                 </nav>
 
-                
-                
             </div>
         </div>
     </header>
@@ -54,129 +51,236 @@
     <!-- Seção 1 -->
     <section class="apresentacao">
         <div class="conteudo">
-            <div class="informacoes-apresentacao">
-                <div class="coluna">
-                    <img class="imagem-responsiva" src="./Imagens/img-1.png" alt="Uma Ilustração">
+            <div class="coluna">
+                <div>
+                    <img class="imagem-responsiva" src="./Imagens/comunidev.png" alt="Logo da ComuniDev">
                 </div>
-                <h1 class="titulo margin-top-20">Olá, </h1>
-                <h2>
-                    Somos um guia de estudos que visa facilitar a inserção da programação e tecnologia nas periferias.
-                </h2>
+                <div class="text">
+                    <h1 class="ola margin-top-20">Olá, </h1>
+                    <h3>
+                        Somos um guia de estudos que visa facilitar a inserção da programação e tecnologia nas
+                        periferias.
+                    </h3>
 
-                <h3>Feito pela comunidade para a comunidade</h3>
+                    <p>Feito pela comunidade para a comunidade</p>
 
-
-
+                    <button class="botao">Comece por aqui !</button>
+                </div>
             </div>
         </div>
 
     </section>
     <!-- Seção 1 -->
 
-    <!-- Seção 4 -->
-    <section>
-        <div>
-            <div>
-                <h1>/Trilhas</h1>
-            </div>
-            <div>
-                <img src="" alt="Trilha 1" />
-            </div>
-            <div>
-                <img src="" alt="Trilha 2" />
-            </div>
-            <div>
-                <img src="" alt="Trilha 3" />
-            </div>
-
-            <div>
-                <p>Lorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet
-                    Lorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet dolorLorem ipsum sit amet
-                </p>
-            </div>
-
-            <div>
-                <a href="login.html">
-                    Vamos lá!
-                </a>
-            </div>
-
-        </div>
-    </section>
-    <!-- Seção 4 -->
-
     <!-- Seção 2 -->
-    <section>
-        <div>
-            <div>
-                <h1>/Sobre a ComuniDev</h1>
-                <p>Somos uma rede que busca fomentar a alfabetização tecnológica e a transformação digital nas
-                    periferias
-                    através da curadoria de conteúdos gratuitos sobre programação.
+    <section class="trilhas">
+        <div class="conteudo">
+            <div class="conteudo informacoes-das-trilhas">
+                <div class="titulo">
+                    <h1 class="cinza">/Trilhas</h1>
+                </div>
+                <div class="coluna">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img class="imagem" src="./Imagens/onda.png" alt="">
+                                <h2>Trilha 1</h2>
+                                <h3>Um mar de possibilidades</h3>
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>Trilha 1</h2>
+                                <h3>•Mapa de Carreira
+                                    • Faça o teste de talento e escolha seu destino
+                                    •Passaportes a mão? Vamos conhecer a fundo destino escolhido
+                                    • Dicas para não se perder no meio da viagem</h3>
+                            </div>
+                        </div>
+                    </div>
 
-                    Nossa missão é facilitar o acesso a conteúdos já disponibilizados na internet e com eles criar uma
-                    trilha de estudo voltada para fortalecer as comunidades periféricas.</p>
-            </div>
-            <div>
-                <img src="" alt="imagem sobre nós">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img class="imagem" src="./Imagens/luneta.png" alt="">
+                                <h2>Trilha 2</h2>
+                                <h3>Aproveite a viagem.</h3>
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>Trilha 2</h2>
+                                <h3>• Muito conteúdo pra pescar
+                                    • Playlists de Aulas e dicas
+                                    • Cronograma de estudos
+                                    • Desafios e exercícios para colocar em prática o aprendizado</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img class="imagem" src="./Imagens/destino.png" alt="">
+                                <h2>Trilha 3</h2>
+                                <h3>Chegando ao seu destino.</h3>
+                            </div>
+                            <div class="flip-box-back">
+                                <h2>Trilha 3</h2>
+                                <h3>• Me preparando para chegar ao destino final
+                                    • Mentoria de Carreira
+                                    com Devs voluntariados da sua comunidade
+                                    •Processo Seletivo Formativo
+                                    vHackathon ComuniDev</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="flex">
+                    <div class="text">
+                        <h3 class="cinza">Comece a estudar agora com materiais gratuitos selecionados por curadores que
+                            já dominam esses
+                            mares
+                            da internet. Aqui é o espaço ideal para você iniciante que ainda está a deriva ou perdido na
+                            praia,
+                            embarque com a gente e bora explorar esse mar de possibilidades!
+                        </h3>
+                    </div>
+
+                    <div>
+                        <a class="botao-trilha" href="trilhas.html">
+                            Embarque aqui !
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
     <!-- Seção 2 -->
 
     <!-- Seção 3 -->
-    <section>
-        <div>
-            <div>
-                <h1>/Equipe</h1>
+    <section class="sobre">
+        <div class="conteudo">
+            <div class="informacoes-do-sobre">
+                <div class="titulo">
+                    <h1>/Sobre o projeto</h1>
+                </div>
+                <div class="coluna">
+                    <div class="text">
+
+                        <h3>
+                            Somos rede que busca fomentar a alfabetização tecnológica e a transformação digital nas
+                            periferias
+                            através da curadoria de conteúdos gratuitos sobre programação.
+                            <br>
+                            Nossa missão é facilitar o acesso a conteúdos já disponibilizados na internet e com eles
+                            criar
+                            uma
+                            trilha de estudo voltada para fortalecer as comunidades periféricas.
+                        </h3>
+                    </div>
+                    <div class="imagem-responsiva-bote">
+                        <img src="./Imagens/bote.png" alt="imagem de um bote no mar">
+                    </div>
+                </div>
+
             </div>
-            <div>
-                <div>
-                    <img src="" alt="Foto do membro da equipe" />
+
+
+        </div>
+    </section>
+    <!-- Seção 3 -->
+
+    <!-- Seção 4 -->
+    <section class="equipe">
+        <div class="conteudo">
+            <div class="informacoes-da-equipe">
+                <div class="titulo">
+                    <h1>/Equipe</h1>
                 </div>
-                <div>
-                    <img src="" alt="Foto do membro da equipe" />
-                </div>
-                <div>
-                    <img src="" alt="Foto do membro da equipe" />
-                </div>
-                <div>
-                    <img src="" alt="Foto do membro da equipe" />
-                </div>
-                <div>
-                    <img src="" alt="Foto do membro da equipe" />
-                </div>
-                <div>
-                    <img src="" alt="Foto do membro da equipe" />
+                <div class="coluna-equipe">
+                    <div>
+                        <img src="./Imagens/JENNIFER.png" alt="Foto do membro da equipe: Jeniffer Carmo" />
+                        <h1>Jeniffer Carmo</h1>
+                    </div>
+                    <div>
+                        <img src="./Imagens/FERNANDA.png" alt="Foto do membro da equipe: Fernanda Penha" />
+                        <h1>Fernanda Penha</h1>
+                    </div>
+                    <div>
+                        <img src="./Imagens/RAQUEL.png" alt="Foto do membro da equipe: Raquel Barbosa" />
+                        <h1>Raquel Barbosa</h1>
+                        <p>UX Designer</p>
+                    </div>
+                    <div>
+                        <img src="./Imagens/THIAGO.png" alt="Foto do membro da equipe: Thiago Souza" />
+                        <h1>Thiago Souza</h1>
+                    </div>
+                    <div>
+                        <img src="./Imagens/RENAN.png" alt="Foto do membro da equipe: Renan Jansen" />
+                        <h1>Renan Jansen</h1>
+                    </div>
+                    <div>
+                        <img src="./Imagens/THAMY.png" alt="Foto do membro da equipe: Thamires Damasceno" />
+                        <h1>Thamires Damasceno</h1>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
-    <!-- Seção 3 -->
+    <!-- Seção 4 -->
 
 
 
     <!-- Seção 5 -->
-    <section id="contato">
-        <div>
-            <div>
-                <h1>/Fale com a gente!</h1>
-            </div>
-
-            <form action="" class="form__exemplo">
-                <label for="nomeinput">Digite o seu nome:</label>
-                <input type="text" name="nome__input" id="nomeInput" placeholder="Digite seu nome">
-                <label for="emailInput">E-mail:</label>
-                <input type="text" class="email__input" id="emailInput" placeholder="Digite seu email">
-                <label for="assuntoInput">Assunto:</label>
-                <input type="text" class="assunto__input" id="assuntoInput" placeholder="Digite o assunto">
-                <label for="textoInput" class="texto__label">Mensagem:</label>
-                <input type="text" class="text__input" id="textoInput" placeholder="Digite sua mensagem">
-
-                <div>
-                    <button class="texto__button">Enviar Mensagem</button>
+    <section class="contato">
+        <div class="conteudo">
+            <div class="informacoes-de-contato">
+                <div class="titulo">
+                    <h1>/Fale com a gente!</h1>
                 </div>
-            </form>
+
+                <div class="coluna-form">
+                    <form action="" class="form__exemplo">
+                        <div class="formulario">
+
+                            <div>
+                                <label for="nomeinput">Digite o seu nome:</label><br>
+                                <input type="text" name="nome__input" id="nomeInput" placeholder="Digite seu nome">
+                            </div>
+
+                            <div>
+                                <label for="emailInput">E-mail:</label><br>
+                                <input type="text" class="email__input" id="emailInput" placeholder="Digite seu email">
+                            </div>
+
+                            <div>
+                                <label for="assuntoInput">Assunto:</label> <br>
+                                <input type="text" class="assunto__input" id="assuntoInput"
+                                    placeholder="Digite o assunto">
+                            </div>
+
+                            <div>
+                                <label for="textoInput" class="texto__label">Mensagem:</label><br>
+                                <input type="text" class="text__input" id="textoInput"
+                                    placeholder="Digite sua mensagem">
+                            </div>
+
+                        </div>
+                        <div>
+                            <button type="button" id="buttom" class="botao btn btn-info btn-lg text-center">Enviar
+                                Mensagem</button>
+                        </div>
+
+                    </form>
+
+                    <div>
+                        <img class="imagem-responsiva-favela" src="./Imagens/favelaazul.png"
+                            alt="Imagem de representação da favela">
+                    </div>
+                </div>
+            </div>
 
         </div>
     </section>
@@ -184,26 +288,33 @@
 
     <!-- Footer -->
 
-    <footer>
-        <div>
-            <div>
-                <a href="index.html">
-                    <h1>ComuniDev</h1>
-                    <p>© 2021 Tecnogueto. Todos os direitos reservados.</p>
-                </a>
-            </div>
-            <div>
-                <h3>Contato</h3>
-                <p>contato@comunidev.com.br</p>
-            </div>
-            <div>
-                <img src="./Imagens/Icones.png" alt="Icones das Redes Sociais">
+    <footer class="footer">
+        <div class="conteudo">
+            <div class="informacoes-do-footer">
+                <div class="coluna-footer">
+                    <div>
+
+                        <h1>ComuniDev</h1>
+                        <p>© 2021 Comunidev. Todos os direitos reservados.</p>
+
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Contato</h3>
+                            <p>contato@comunidev.com.br</p><br>
+                        </div>
+                        <div>
+                            <img src="./Imagens/Icones.png" alt="Icones das Redes Sociais">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
 
 
     <!-- Footer -->
+    <script src="./JavaScript.js"></script>
 </body>
 
 </html>

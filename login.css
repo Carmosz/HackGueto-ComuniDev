@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  /* HEADER */
+  
+  .header {
+    padding-top: 30px;
+    margin: 0 30px 20px 30px;
+    background: #FFFFFF;
+    padding: 56px 84px;
+    color: #18191F;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .informacoes-do-header{
+    display: flex;
+    line-height: 1.25rem;
+    color: #18191F;
+  }
+  
+  .informacoes-do-header,
+  .informacoes-do-header nav {
+      margin-bottom: 10px;
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  
+  
+  .informacoes-do-header img,
+  .informacoes-do-header nav a {
+      margin-left: 2rem;
+      width: 100px;
+  }
+  
+  .informacoes-do-header nav a {
+      font-weight: bold;
+      font-size: var(--fonte-14);
+      line-height: 1.25rem;
+      text-decoration: none;
+      color: #18191F;
+  }
+  
+  .botao-login{
+    margin: 0 0 0 20px;
+  }
+  
+  
+  /* HEADER */
+
+  /* BOTOES */
+
+  .botao,
+  .botao-trilha,
+  .botao-login{
+   cursor: pointer;
+   padding: 10px 16px;
+   font-size: 18px;
+   font-family: 'Roboto Mono', monospace;
+   line-height: 15px;
+   color: black;
+   background: #77E2F1;
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+   text-align: center;
+   }
+   
+  /* BOTOES */
+
+  /* CONSTRUÇÃO */
+
+  .coluna-construcao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    line-height: 100px;
+    color: #283790;
+    margin-bottom: 40px;
+  }
+  /* CONSTRUÇÃO */
+
+  /* FOOTER */
+.informacoes-do-footer{
+    background: #283790;
+    padding: 56px 84px;
+    color: #FFFFFF;
+  }
+  
+  .coluna-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+  }
+  
+  /* FOOTER */

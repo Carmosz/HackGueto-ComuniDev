@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* HEADER */
+
+.header {
+  padding-top: 30px;
+  margin: 0 30px 20px 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.informacoes-do-header{
+  display: flex;
+  line-height: 1.25rem;
+  color: #18191F;
+}
+
+.informacoes-do-header,
+.informacoes-do-header nav {
+    margin-bottom: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.informacoes-do-header img,
+.informacoes-do-header nav a {
+    margin-left: 2rem;
+    width: 100px;
+}
+
+.informacoes-do-header nav a {
+    font-weight: bold;
+    font-size: var(--fonte-14);
+    line-height: 1.25rem;
+    text-decoration: none;
+    color: #18191F;
+}
+
+.botao-login{
+  margin: 0 0 0 20px;
+}
+
+
+/* HEADER */
+
+/* TRILHAS */
+
+.informacoes-das-trilhas{
+  background: #283790;
+  padding-top: 80px;
+  padding-bottom: 152px;
+}
+
+.titulo{
+  font-size: 34px;
+  line-height: 100px;
+  margin-left: 100px;
+  font-family: 'IBM Plex Mono', monospace;
+}  
+
+.cinza{
+  color:#DFDFDF;
+  margin-bottom: 40px;
+   margin-top: 40px;
+}
+
+.coluna{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}  
+
+
+/* FRIP-BOX */
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: #283790;
+  }
+  
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .imagem{
+      margin-top: 40px;
+  }
+
+/* FRIP-BOX */
+
+
+.text{
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 34px;
+  font-size: 20px;
+}   
+
+.botao,
+.botao-trilha,
+.botao-login{
+   cursor: pointer;
+   padding: 10px 16px;
+   font-size: 18px;
+   font-family: 'Roboto Mono', monospace;
+   line-height: 15px;
+   color: black;
+   background: #77E2F1;
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+   text-align: center;
+   }
+
+.botao-trilha{ 
+   margin-left: 100px;
+}   
+
+/* TRILHAS */
+
+/* FOOTER */
+.informacoes-do-footer{
+  background: #283790;
+  padding: 56px 84px;
+  color: black;
+}
+
+
+.coluna-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 30px;
+}
+
+/* FOOTER */
